@@ -1,0 +1,71 @@
+.content {
+    width: 90%;
+    margin: 50px auto;
+}
+
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border-top: 1px solid rgb(146, 145, 145);
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #f2f2f2;
+    opacity: 0.7;
+}
+.count{
+    font-weight: bold;
+}
+.in-PROGRESS{
+    color: #e22222;
+}
+.btn-edit {
+    background-color: #f5952f;
+    width: 70px;
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 4px;
+    border: none;
+}
+.btn-edit:hover{
+    outline: 3px solid  #f6b46d;
+    background-color: #d57106;
+}
+.btn-delete {
+    background-color: #e22222;
+    color: white;
+    width: 70px;
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 4px;
+    border: none;
+}
+.btn-delete:hover{
+    outline: 3px solid   #f04e4e;
+    background-color:  #ab0e0e;
+}
+.done {
+    color: green;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+.addEditClass{
+    outline: 3px solid #f6b46d;;
+}

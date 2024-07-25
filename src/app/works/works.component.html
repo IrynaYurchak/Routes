@@ -1,0 +1,32 @@
+<div class="menu">
+  <div>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page">Last works >>></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link  " [routerLink]="[ '/works/cenzor' ]" routerLinkActive="active active-link">Cenzor</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="[ '/works/user-list' ]" routerLinkActive="active active-link">User</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="[ '/works/task-list' ]" routerLinkActive="active active-link">Task</a>
+      </li>
+
+    </ul>
+  </div>
+  <div>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link link-red" aria-current="page" style="color: red !important;">Back to >>></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-red" [routerLink]="['/home']" routerLinkActive="active link-red" style="color: red !important;">Home</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<router-outlet></router-outlet>

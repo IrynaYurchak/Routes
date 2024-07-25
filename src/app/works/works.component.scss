@@ -1,0 +1,10 @@
+.menu {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-link.active-link {
+    color: green !important;
+}

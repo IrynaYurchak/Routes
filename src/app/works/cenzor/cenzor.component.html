@@ -1,0 +1,15 @@
+<div class="block-main">
+    <div id="list-word">
+        <span>Bad words:</span>
+        <p class="list">{{ badWords.join(', ') }}</p>
+    </div>
+    <div class="bed-words">
+        <input type="text" [(ngModel)]="newWord" placeholder="word here" id="word">
+        <input type="button" id="btn-add" value="Add" (click)="add()">
+        <input type="button" id="btn-reset" value="Reset" (click)="reset()">
+    </div>
+    <div class="block-bottom">
+        <input type="text" [(ngModel)]="textToCensor" id="text" placeholder="text here...">
+        <input type="button" id="btn-cenzor" value="Censor" (click)="censor()">
+    </div>
+</div>

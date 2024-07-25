@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.block {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color:#f1eeee;
+    border-radius: 8px;
+}
+
+.block img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.btn-detail{
+    width: 86%;
+    height: 60px;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.name-block{
+    color: red;
+    padding:20px 2px;
+}
